@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+}
+.meet {
+  background-color: #004047;
+  background-image: url('../rasm/meet-img-1.svg'), 
+                    url('../rasm/meet-img-2.svg');
+  background-repeat: no-repeat;
+  background-position: calc(50% - 673px) top , calc(50% + 600px) bottom;
+  padding-bottom: 154px;
+}
+.container {
+  width: 1210px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.meet-title {
+  margin: 0;
+  font-family: Livvic;
+  font-size: 48px;
+  line-height: 48px;
+  padding-top: 154px;
+  margin-bottom: 64px;
+  text-align: center;
+  color: white;
+}
+.meet-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.meet-item {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 350px;
+  height: 255px;
+  background-color: #012f34;
+  text-align: center;
+  overflow: hidden;
+}
+.meet-item:hover .meet-item-box {
+  margin-top: -200px;
+}
+.meet-item:hover .meet-first-btn {
+  margin-top: 257px;
+  background-color: #79c8c7;
+  transform: rotate(45deg);
+  position: absolute;
+}
+.meet-item-box {
+  width: 300px;
+  height: 170px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.first-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 55px;
+}
+.first-box-img {
+  width: 96px;
+  height: 96px;
+  display: block;
+}
+.first-box-title {
+  margin: 0;
+  font-family: Livvic;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-top: 16px;
+}
+.first-box-text {
+  margin: 0;
+  font-family: Livvic;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+}
+.second-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+}
+.second-box-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Livvic;
+  color: #79C8C7;
+}
+.second-box-text {
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  width: 255px;
+  font-family: Livvic;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: white
+}
+.second-box-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.second-box-img {
+  margin: 8px;
+}
+.meet-first-btn {
+  margin-top: 25px;
+  margin-left: -25px;
+  position: absolute;
+  z-index: 10;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f67e7e;
+}
+.btn-first-img {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
